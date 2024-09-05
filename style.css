@@ -1,13 +1,7 @@
 /*External*/
-p#message{
-    color: violet;
-    font-style: italic;
-    font-weight: bolder;
-}
-h1.title{
-    color: springgreen;
-    font-variant: inherit;
-}
-h1{
-    color: sienna;
+/* กำหนดชนิดฟอนต์ font-family*/
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Sriracha&display=swap');
+/* กำหนด style sheet มีผลต้อทุกแท้กของเว็บเพจใช้เครื่องหมาย * */
+*{
+    font-family: "Itim", cursive;
 }
