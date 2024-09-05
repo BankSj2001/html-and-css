@@ -4,4 +4,15 @@
 /* กำหนด style sheet มีผลต้อทุกแท้กของเว็บเพจใช้เครื่องหมาย * */
 *{
     font-family: "Itim", cursive;
+    background: #ffc0c0;
+    font-size: x-large;
+}
+.message{
+    color: aqua;
+}
+#title{
+    color: yellow;
+}
+h1{
+    color: palegreen;
 }
