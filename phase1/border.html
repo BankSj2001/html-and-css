@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Border</title>
-    <!-- รูปแบบเส้น solid,dotted,dashed-->
+    <!-- border เส้นขอบ -->
+    <!-- รูปแบบเส้น boeder-style solid,dotted,dashed-->
     <style>
     div{
         width: 100px;
@@ -18,9 +19,16 @@
         border-right-style: dotted;
         border-bottom-style: double;
     }
+    /* การกำหนดเส้นขอบ(width) */
     .box-2{
-        background-color: green;
-        border-style: double;
+        background-color: white;
+        border-color: rgb(255, 0, 98);
+        border-style:solid;
+        border-top-width: 5px;
+        border-left-width: 7px;
+        border-right-width: 10px;
+        border-bottom-width: 12px;
+        
     }
     /* กำหนดสีเส้นขอบ */
     .box-3{
@@ -29,7 +37,7 @@
         border-top-color: red;
         border-left-color: aqua;
         border-right-color: blue;
-        border-bottom-color: violet;
+        border-bottom-color: hotpink;
     }
     .box-4{
         background-color: violet;
